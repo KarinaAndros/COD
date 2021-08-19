@@ -1,0 +1,663 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: show;
+    animation-name: show;
+}
+@-webkit-keyframes show {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+    }
+    @keyframes show {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 100%;
+}
+/* Шапка */
+header{
+    width: 100%;
+    background-image: linear-gradient( to top, rgba(89, 106, 114, 0.6), rgba(41, 129, 186, 0.8)), url(..//img/robot.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header_container{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.logo{
+    background-image: url(..//img/logo_new.png); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 200px;
+    height: 147px;
+    margin: 0 auto;
+}
+
+.header_container h1{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 0;
+    text-transform:uppercase;
+}
+.header_container a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform:uppercase;
+}
+.link{
+    border-right: 2px white solid;
+    margin-right: 4px;
+    padding-right: 7px;
+    color: white;
+}
+.link_5{
+    color: white;
+}
+.link_3{
+    color: rgb(244, 156, 19);
+    border-right: 2px white solid;
+    margin-right: 4px;
+    padding-right: 7px;
+}
+.header_container a:hover{
+    color: rgb(244, 156, 19);
+}
+/* Информация о моделировании */
+
+.about_modeling_container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_modeling_res p{
+    line-height: 35px;
+    font-size: 20px;
+    width: 800px;
+    text-indent: 40px;
+}
+
+.about_modeling_res span{
+    color: rgb(41, 129, 186);
+    font-weight: bold;
+}
+video{
+    outline: none;
+}
+.about_modeling_res {
+    text-align: justify;
+}
+.modeling_text_2{
+    
+    font-size: 20px;
+    line-height: 35px;
+    text-align: justify;
+}
+.about_modeling_2{
+    background-color: rgb(41, 129, 186);
+}
+
+.about_modeling_res_3 h1{
+    color: white;
+    font-size: 35px;
+}
+.about_modeling_container_2{
+    padding-top: 10px;
+    color: white;
+    padding-bottom: 10px;
+}
+.about_modeling_res_2{
+    display: flex;
+    justify-content: space-around;
+
+}
+.img{
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    color: black;
+margin: 0 auto;
+    background-image: url(..//img/rukovoditel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    border-radius: 100%;
+}
+
+.schedule {
+    width: 500px;
+    line-height: 35px;
+    color:white;
+    height: 200px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.inf_of_teacher{
+    color:white;
+    text-align: center;
+padding-bottom: 10px;
+}
+.inf_of_teacher h1{
+    font-size: 40px;
+    margin: 0;
+    margin-top: 10px;
+}
+.inf_of_teacher h3{
+    font-size: 25px;
+    margin: 0;
+    font-weight: normal;
+
+    margin-bottom: 10px;
+}
+.inf_of_teacher span{
+    font-size: 20px;
+    margin-top: 20px;
+}
+/* Обучающиеся */
+.students_container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+.students_container h1{
+    color: rgb(41, 129, 186);
+    font-size: 35px;
+    text-align: center;
+    margin-top: 0;
+}
+.classes{
+    display: flex;
+    margin-top: 50px;
+}
+.class{
+    background-color:rgb(41, 129, 186);
+   text-align: center;
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgb(41, 129, 186);
+display: flex;
+justify-content: space-between;
+margin: 0 auto;
+margin-bottom: 20px;
+}
+.icon{
+    text-align: end;
+}
+.class i{
+    font-size: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+    color: white;
+}
+.class i:hover{
+    color: rgb(244, 156, 19);
+}
+.up, .up_3, .up_2{
+    display: none;
+}
+.number{
+    margin-left: 110px;
+}
+.title{
+    margin-left: 90px;
+}
+.card{
+    width: 280px;
+padding-bottom: 10px;
+    text-align: center;
+    box-shadow: 0 0px 40px rgb(41, 129, 186);
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+#students_cards_ten, #students_cards_eleven{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: show;
+    animation-name: show;
+}
+.card img{
+    margin: 0;
+}
+.inf_student{
+    
+width: 230px;
+margin: 0 auto;
+}
+.inf_student h3{
+ margin-top: 10px;
+ margin-bottom: 0;
+ font-size: 25px;
+ font-weight: bold;
+ color: rgb(41, 129, 186);
+}
+.inf_student h4{
+    margin-top: 0px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+#photos{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: show;
+    animation-name: show;
+}
+   /* Подвал сайта */
+footer{
+    background-color: rgb(41, 129, 186);
+}
+.footer_container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.logo_2{
+    width: 200px;
+    height: 120px;
+    background-image: url(..//img/logo_new_gray.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+/* Адаптивная вёрстка */
+@media screen and (min-width: 320px) and (max-width:599px)
+{ 
+    body
+    {
+        overflow-x: hidden;
+    }
+    .container{
+        min-width: 320px;
+        max-width: 599px;
+    }
+    .header_container{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .logo{
+        width: 150px;
+        height: 120px;
+    }
+    .header_container h1{
+        font-size: 30px;
+    }
+    .header_container a{
+        font-size: 17px;
+    }
+
+    .img{
+        width: 300px;
+        height: 300px;
+        background-color: white;
+        color: black;
+        margin: 0 auto;
+        background-image: url(..//img/rukovoditel.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 10px;
+        border-radius: 100%;
+    }
+  
+    .about_modeling_container{
+        display: block;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .about_modeling_res p{
+        line-height: 25px;
+        font-size: 15px;
+        text-indent: 0px;
+        width: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about_modeling_res {
+        margin-top: 0px;
+    }
+    .modeling_text_2{
+        font-size: 15px;
+        line-height: 25px;
+        
+    }
+    .about_modeling_res_3 h1{
+        font-size: 20px;
+    }
+    .about_modeling_container_2{
+        padding-top: 10px;
+        display: block;
+    }
+
+    .about_modeling_res_2{
+        display: block;
+
+    }
+    .schedule {
+     
+        line-height: 25px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .schedule h1{
+        font-size: 25px;
+    }
+    .inf_of_teacher{
+        background-color:rgb(41, 129, 186);
+        text-align: center;
+    }
+    .students_container h1{
+        font-size: 30px;
+    }
+    .classes{
+        display: block;
+    }
+    .class{
+        font-size: 20px;
+    }
+    .card{
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    #photos{
+        margin-top: 40px;
+        flex-direction: column;
+    }
+    #photos img{
+        width: 100%;
+    }
+    #photos video{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .footer_container{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .logo_2{
+        width: 150px;
+        height: 120px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width:768px)
+{
+    body
+    {
+        overflow-x: hidden;
+    }
+    header{
+        background-size: cover;
+    }
+    .container{
+        min-width: 600px;
+        max-width: 768px;
+    }
+    .header_container{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .img{
+      
+        background-color: white;
+        color: black;
+        margin: 0 auto;
+        background-image: url(..//img/rukovoditel.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 10px;
+        border-radius: 100%;
+    }
+    .about_modeling_container{
+        display: block;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .about_modeling_res p{
+        line-height: 25px;
+        text-indent: 15px;
+        width: auto;
+        text-align: justify;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about_modeling_res {
+        margin-top: 0px;
+    }
+    .modeling_text_2{
+        text-indent: 15px;
+        line-height: 25px;
+        padding-left: 10px;
+        padding-right:10px;
+    }
+    .about_modeling_res_3 h1{
+        font-size: 20px;
+    }
+
+    .about_modeling_container_2{
+        padding-top: 10px;
+    }
+    .about_modeling_res_2{
+        display: block;
+    }
+    .schedule {
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    .students_container{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .classes{
+        display: block;
+    }
+    .card{
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    #photos{
+        margin-top: 40px;
+        flex-direction: column;
+    }
+    #photos img{
+        width: 100%;
+    }
+    #photos video{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .footer_container{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .logo_2{
+        width: 150px;
+        height: 120px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width:1024px)
+{
+    .container{
+        min-width: 769px;
+        max-width: 1024px;
+    }
+    body
+    {
+        overflow-x: hidden;
+    }
+    .about_modeling_container{
+        display: block;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .about_modeling_res p{
+        line-height: 25px;
+        text-indent: 15px;
+        width: auto;
+        text-align: justify;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about_modeling_res {
+        margin-top: 0px;
+    }
+    .modeling_text_2{
+        text-indent: 15px;
+        line-height: 25px;
+        padding-left: 10px;
+        padding-right:10px;
+    }
+    .about_modeling_container_2{
+        padding-top: 10px;
+    }
+    .students_container{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .schedule {
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .about_modeling_res_2{
+        display: block;
+    }
+    .classes{
+        display: block;
+    }
+    .card{
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    #photos{
+        align-items: center;
+        margin-top: 40px;
+        flex-direction: column;
+    }
+    #photos video{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width:1153px)
+{
+    .container{
+        min-width: 1025px;
+        max-width: 1153px;
+    }
+    body
+    {
+        overflow-x: hidden;
+    }
+    .about_modeling_container{
+        display: block;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .about_modeling_res p{
+        line-height: 25px;
+        text-indent: 15px;
+        width: auto;
+        text-align: justify;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about_modeling_res {
+        margin-top: 0px;
+    }
+    .modeling_text_2{
+        text-indent: 15px;
+        line-height: 25px;
+        padding-left: 10px;
+        padding-right:10px;
+    }
+    .about_modeling_container_2{
+        padding-top: 10px;
+    }
+    .students_container{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .card{
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    #photos{
+        align-items: center;
+        margin-top: 40px;
+        flex-direction: column;
+    }
+    #photos video{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 1054px) and (max-width:1280px)
+{
+    .container{
+        min-width: 1054px;
+        max-width: 1280px;
+    }
+    body
+    {
+        overflow-x: hidden;
+    }
+
+    .modeling_text_2{
+  
+        line-height: 25px;
+        padding-left: 10px;
+        padding-right:10px;
+    }
+    .about_modeling_container_2{
+        padding-top: 10px;
+    }
+    .card{
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    #photos{
+        align-items: center;
+        margin-top: 40px;
+        flex-direction: column;
+    }
+    #photos video{
+        margin-top: 20px;
+    }
+}

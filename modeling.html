@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="rus">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D моделирование</title>
+    <link rel="stylesheet" href="CSS/modeling.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header_container">
+                <div class="logo"></div>
+                <h1>Технолаборатория</h1>
+                <hr width="945" size="3" color="white">
+                <a href="index.html" class="link">Главная</span></a>
+                <a href="robotics.html" class="link link_2">Робототехника</span></a>
+                <a href="modeling.html" class="link_3">3D моделирование</span></a>
+                <a href="laboratory.html" class="link">Цифровая лаборатория</span></a>
+                <a href="newspaper.html" class="link_5">Газета "Треска"</span></a>
+            </div>
+        </div>
+    </header>
+    <div class="about_modeling">
+        <div class="container">
+            <div class="about_modeling_container">
+                <div class="about_modeling_res">
+                    <p><span>3D-моделирование и аддитивные технологии </span> — прогрессивная отрасль, позволяющая создавать трехмерную модель объекта при помощи специальных компьютерных программ и прототипировать их при помощи современных методов производства.
+                        Моделируемые объекты выстраиваются на основе чертежей, рисунков, подробных описаний и другой информации. В ходе разработки модели можно точно рассчитать её физические, геометрические и прочностные свойства. Практические задания,
+                        предлагаемые в курсе, интересны и часто непросты в решении, что позволяет повысить учебную мотивацию обучающихся и развитие творческих способностей.</p>
+                    <p class="modeling_text_2">Программа «Трехмерное моделирование» рассчитана на обучение обучающихся 10-11 классов навыкам работы в системе автоматического проектирования Autodesk Fusion 360, 3D-печати, 3D-сканирования, основам работы на станках с числовым программным
+                        управлением. </p>
+                </div>
+                <div class="about_modeling_res_2">
+                    <img class="model" src="img/3D.jpg" width="350">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="about_modeling_2">
+        <div class="container">
+            <div class="about_modeling_container_2">
+                <div class="about_modeling_res_2">
+                    <div class="teacher">
+                        <div class="img"></div>
+                        <div class="inf_of_teacher">
+                            <h1>Хозеров Василий</h1>
+                            <hr width="520" size="3" color="orange">
+                            <h3>преподаватель 3D моделирования<br></h3>
+                            <span>cтудент 4 курса Института радиотехники и<br> информационных технологий НГТУ им Р. Е. Алексеева</span>
+                        </div>
+                    </div>
+                    <div class="schedule">
+                        <h1>Расписание занятий:</h1>
+                        <p>вторник 17:00-19:00<br> четверг 17:00-19:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="students">
+        <div class="container">
+            <div class="students_container">
+                <h1>Обучающиеся</h1>
+                <div class="classes">
+                    <div class="class">
+                        <div class="number">10 класс</div>
+                        <a href="#students_cards_ten" class="icon icon_10 down" onclick="openbox ('students_cards_ten'); return false"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        <a href="#students_cards_ten" class="icon icon_10 up" onclick="openbox ('students_cards_ten'); return false"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="class">
+                        <div class="number">11 класс</div>
+                        <a href="#students_cards_eleven" class="icon icon_10 down_2" onclick="openbox_3 ('students_cards_eleven'); return false"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        <a href="#students_cards_eleven" class="icon icon_10 up_2" onclick="openbox_3 ('students_cards_eleven'); return false"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="class">
+                        <div class="title">Фото и видео</div>
+                        <a href="#photos" class="icon icon_10 down_3" onclick="openbox_2 ('photos'); return false"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        <a href="#photos" class="icon icon_10 up_3" onclick="openbox_2 ('photos'); return false"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div id="photos" style="display:none;">
+                    <img src="img/общее фото.jpg" width="526">
+                    <video src="video/Видео ЦОД.mp4" width="700" controls="controls"></video>
+                </div>
+                <div id="students_cards_ten" style="display:none;">
+                    <div class="card">
+                        <img src="students/Polina.jpg">
+                        <div class="inf_student">
+                            <h3> Козлова<br> Полина</h3>
+                            <hr width="230" size="3" color="orange">
+                            <h4>10"А" класс</h4>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="students/Kirill.jpg">
+                        <div class="inf_student">
+                            <h3>Плотников<br> Кирилл</h3>
+                            <hr width="230" size="3" color="orange">
+                            <h4>10"А" класс</h4>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="students/Valeria.jpg">
+                        <div class="inf_student">
+                            <h3>Щепилова<br> Валерия</h3>
+                            <hr width="230" size="3" color="orange">
+                            <h4>10"А" класс</h4>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="students/Polina_2.jpg">
+                        <div class="inf_student">
+                            <h3>Корьевщикова<br> Полина</h3>
+                            <hr width="230" size="3" color="orange">
+                            <h4>10"А" класс</h4>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="students/Mihail.jpg">
+                        <div class="inf_student">
+                            <h3>Сидоров<br> Михаил</h3>
+                            <hr width="230" size="3" color="orange">
+                            <h4>10"Г" класс</h4>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="students/Artem.jpg">
+                        <div class="inf_student">
+                            <h3>Овсянников<br> Артём</h3>
+                            <hr width="230" size="3" color="orange">
+                            <h4>10"Г" класс</h4>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="students/Arina.jpg">
+                        <div class="inf_student">
+                            <h3>Нарович<br> Арина</h3>
+                            <hr width="230" size="3" color="orange">
+                            <h4>10"Д" класс</h4>
+                        </div>
+                    </div>
+                </div>
+                <div id="students_cards_eleven" style="display:none;">
+                    <div class="card">
+                        <img src="students/Kirill_2.jpg">
+                        <div class="inf_student">
+                            <h3>Лебедев<br> Кирилл</h3>
+                            <hr width="230" size="3" color="orange">
+                            <h4>11"А" класс</h4>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="students/Mihail_2.jpg">
+                        <div class="inf_student">
+                            <h3>Плигин<br>Михаил</h3>
+                            <hr width="230" size="3" color="orange">
+                            <h4>11"А" класс</h4>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="students/Dima.jpg">
+                        <div class="inf_student">
+                            <h3>Калягин<br> Дмитрий</h3>
+                            <hr width="230" size="3" color="orange">
+                            <h4>11"А" класс</h4>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="students/Yan.jpg">
+                        <div class="inf_student">
+                            <h3>Левандовский<br> Ян</h3>
+                            <hr width="230" size="3" color="orange">
+                            <h4>11"Ж" класс</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer_container">
+                <div class="logo_2"></div>
+            </div>
+        </div>
+    </footer>
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
